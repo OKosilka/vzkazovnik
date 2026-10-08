@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: etherpad.local
+    - host: etherpad.techdev.local
       http:
         paths:
           - path: /
