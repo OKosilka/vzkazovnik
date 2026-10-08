@@ -7,5 +7,7 @@ spec:
   selector:
     app: etherpad
   ports:
-  - port: 80
-    targetPort: 9001
+    - protocol: TCP
+      port: 80
+      targetPort: 9001
+  type: ClusterIP
