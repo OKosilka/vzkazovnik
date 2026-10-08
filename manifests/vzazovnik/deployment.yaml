@@ -14,7 +14,7 @@ spec:
         app: etherpad
     spec:
       containers:
-      - name: etherpad
-        image: etherpad/etherpad:latest
-        ports:
-        - containerPort: 9001
+        - name: etherpad
+          image: etherpad/etherpad:latest
+          ports:
+            - containerPort: 9001
